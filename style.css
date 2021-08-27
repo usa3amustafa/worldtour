@@ -78,9 +78,7 @@ nav ul li a:hover {
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
   cursor: pointer;
-  transition-property: border, border-radius, color, background-color;
-  transition-duration: 1s;
-  transition-timing-function: ease-in-out;
+
   position: absolute;
   top: 50%;
   left: 50%;
@@ -94,6 +92,9 @@ nav ul li a:hover {
   border-bottom-right-radius: 40px;
   border-top-right-radius: 0;
   border-bottom-left-radius: 0;
+  transition-property: border, border-radius, color, background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
 }
 .hero a i {
   font-size: 2rem;
