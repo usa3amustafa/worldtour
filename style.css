@@ -78,7 +78,9 @@ nav ul li a:hover {
   border-top-right-radius: 40px;
   border-bottom-left-radius: 40px;
   cursor: pointer;
-  transition: all 400ms ease-in;
+  transition-property: border, border-radius, color, background-color;
+  transition-duration: 1s;
+  transition-timing-function: ease-in-out;
   position: absolute;
   top: 50%;
   left: 50%;
